@@ -1,10 +1,10 @@
 
-import SlickCarousel from "./pages/slider/page";
+// import SlickCarousel from "./pages/slider/page";
 
 export default function Home() {
   return (
    <div>
-    <SlickCarousel/>
+    {/* <SlickCarousel/> */}
    </div>
   )
 }
