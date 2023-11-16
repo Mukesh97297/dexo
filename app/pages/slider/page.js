@@ -1,18 +1,18 @@
 'use client';
 import React from 'react'
-import Slider from 'react-slick'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import Slider from 'react-slick'
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image';
 function SlickCarousel() {
-    const settings = {
-        dots: true,
-        infinite: true,
-        arrows: false,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-    };
+    // const settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     arrows: false,
+    //     speed: 500,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    // };
 
     return (
         <div className='bg-gradient-radial lg:h-[500px] h-full border border-solid border-opacity-[16%] border-gray-300'>
@@ -22,7 +22,7 @@ function SlickCarousel() {
                 <div className='' style={{
                     background: 'radial-gradient(58.43% 58.43% at 50% 0%, rgba(103, 33, 255, 0.24) 0%, rgba(197, 97, 255, 0.1) 47.92%, rgba(6, 11, 39, 0) 100%)',
                 }}>
-                    <Slider {...settings}>
+                    {/* <Slider {...settings}>
                         <div className='text-center justify-center  !flex'>
                             <div>
                                 <div className='flex justify-center pt-20'>
@@ -65,7 +65,7 @@ function SlickCarousel() {
                                 </div>
                             </div>
                         </div>
-                    </Slider>
+                    </Slider> */}
                 </div>
 
             </div>
