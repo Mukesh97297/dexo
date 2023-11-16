@@ -1,15 +1,10 @@
-
-
-
-import Footer from "./pages/footer/page";
-import Navbar from "./pages/header/page";
+import Main from "./main";
 
 export default function Home() {
   return (
    <div>
-    <Navbar/>
-    <Footer/>
    
+  <Main/>
    </div>
   )
 }
