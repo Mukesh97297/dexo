@@ -7,7 +7,7 @@ const Fully = () => {
             <div className='mx-auto container px-4 '>
                 <div className='grid grid-cols-12'>
                     <div className='lg:col-span-6 col-span-12'>
-                        <div className='py-10 lg:txt-start text-center'>
+                        <div className='py-10 lg:text-start text-center'>
                             <span className='font-bold lg:text-[56px] text-4xl lg:leading-[64px] leading-10 text-white pt-5' style={{ textShadow: '0px 0px 16px rgba(58, 54, 255, 0.24), 0px 0px 64px rgba(225, 194, 255, 0.48)' }}>Fully Decentralized.<br className='md:block hidden' /> Completely Secure</span>
                             <p className='text-[#8F9BB7] font-normal lg:text-2xl text-xl lg:leading-8 leading-6 pt-5'>DEXO aims to connect all isolated blockchains and<br className='md:block hidden' /> establish a cross-chain asset exchange network,<br className='md:block hidden' /> providing all necessary underlying support for the Defi<br className='md:block hidden' /> ecosystem. Let every digital asset holder experience a<br className='md:block hidden' /> truly safe, free and transparent Defi service.</p>
                             <div className='pt-5'>
