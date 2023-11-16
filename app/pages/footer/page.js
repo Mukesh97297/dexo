@@ -4,15 +4,15 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div>
-       <footer className='md:min-h-[504px] min-h-full bg-gradient-radial '>
-            <div className='container mx-auto '>
+       <footer className='bg-gradient-radial '>
+            <div className='container mx-auto px-4 '>
                 <div className=' inset-0  bg-transparent grid border-t-2 border-[#B4B6D029]'>
                         <div className='grid grid-cols-12  py-28' >
                             <div className='lg:col-span-4 col-span-12 md:py-0 py-3'>
                                 <Link href="/" className='flex lg:justify-start  justify-center'>
-                                    <Image src='/images/image 1.png' alt='' width={195} height={58} />
+                                    <Image src='/images/image 1.png' alt='' width={152} height={41} />
                                 </Link>
-                                <div className='py-6 flex lg:justify-start  justify-center gap-5'>
+                                <div className='py-6 flex lg:justify-start  justify-center lg:gap-5 gap-2'>
                                     <Link href="/" className=' items-center grid'>
                                         <Image src='/images/twitter.png' alt='' width={28} height={28} />
                                     </Link>
@@ -68,7 +68,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='text-center py-10'>
+                        <div className='text-center py-5'>
                             <span className=' font-normal text-sm text-center font-sans text-white opacity-[70%]'>Copyright © 2022 DEXO. All Rights Reserved. <br className='md:block hidden' /> Global Headquarters, DEXO, Baarerstrasse 98, 2300 Sig, Singapore</span>
                         </div>
                     </div>

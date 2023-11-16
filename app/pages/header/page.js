@@ -32,8 +32,8 @@ function Navbar() {
       }, []);
   return (
     <div>
-      <nav className=" border border-white border-opacity-10  w-full md:absolute relative min-h-[106px] flex items-center " ref={navbarRef}>
-            <div className="container mx-auto  md:flex md:justify-between md:items-center">
+      <nav className=" border border-white border-opacity-10  w-full md:absolute bg-gradient-radial lg:py-0 py-2 lg:px-0 px-2 relative min-h-[106px] flex items-center " ref={navbarRef}>
+            <div className="container mx-auto lg:px-4  md:flex md:justify-between md:items-center">
                 <div className="flex items-center justify-between">
                     <div>
                         <Link href="" >
@@ -77,7 +77,7 @@ function Navbar() {
                     </button>
                 </div>
                 <div className={`md:flex items-center ${isOpen ? 'block' : 'hidden'}`}>
-                    <ul className="flex flex-col p-4 md:p-0 mt-4 font-normal text-lg leading-5  rounded-lg  md:flex-row md:space-x-8 md:mt-0 gap-12 text-white">
+                    <ul className="flex flex-col p-4 md:p-0 mt-4 font-normal lg:text-lg text-sm leading-5  rounded-lg  md:flex-row md:space-x-8 md:mt-0 lg:gap-12 gap-0 text-white">
                         <li><Link href="/" className="hover:text-blue-500">Trade</Link></li>
                         <li><Link href="/pages/services" className="hover:text-blue-500">Swap</Link></li>
                         <li><Link href="/pages/about" className="hover:text-blue-500">Stacking</Link></li>
@@ -85,7 +85,7 @@ function Navbar() {
                         <li><Link href="/pages/blog" className="hover:text-blue-500">NFT Market</Link></li>
                     </ul>
                 </div>
-                <div className={`md:flex items-center gap-3 ${isOpen ? 'block' : 'hidden'}`}>
+                <div className={`md:flex items-center gap-4 ${isOpen ? 'block' : 'hidden'}`}>
                 <li><Link href="/pages/blog" className="hover:text-blue-500 text-white">Sign In</Link></li>
                   <Link href="/pages/contact">
                   <button type="button" className="bg-gradient-custom min-h-[47px] min-w-[112px] shadow-xl rounded-[48px] font-normal text-lg leading-5 text-white">Sign Up</button>

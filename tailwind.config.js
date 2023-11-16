@@ -16,6 +16,7 @@ module.exports = {
           'hero-back-img':"url('/images/Background-color.png')",
           'rectangle-8': "url('/images/Rectangle 8.png')",
       },
+      
     },
   },
   plugins: [],
